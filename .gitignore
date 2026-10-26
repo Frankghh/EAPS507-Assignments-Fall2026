@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+credentials.json
+*credentials*.json
+*secrets*.json
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+*.tmp
